@@ -3,7 +3,7 @@ import { dirname, join as joinPath } from 'node:path';
 import { PassThrough } from 'node:stream';
 import { fileURLToPath } from 'node:url';
 
-import Tokenize from '@csstools/tokenizer';
+import Tokenize from 'css-tokenize';
 import { test } from 'tap';
 
 import SourceMapTransform from '../lib/stream/SourceMapTransform.js';
